@@ -1,5 +1,4 @@
 baseURL = 'http://example.org/'
-publishDir = "public"
 languageCode = 'ja'
 title = 'モロッコ観光'
 
