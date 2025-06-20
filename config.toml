@@ -1,0 +1,60 @@
+baseURL = 'http://example.org/'
+publishDir = "public"
+languageCode = 'ja'
+title = 'モロッコ観光'
+
+
+#mdへのhtmlの追加
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+#読み込むパラメータ
+[params]
+
+#読み込むCSSの記載
+customCSS = ["/css/style.css",
+             "/css/header.css",
+             "/css/footer.css",
+             "/css/breadcrumb.css",
+             "/css/aos.css",
+             "/css/title.css",
+             "/css/page_top.css",
+             "/css/tag_bar.css"]
+
+#読み込むJSの記載
+customJS = ["/js/count.js",
+            "/js/header.js",
+            "/js/page_top.js"]
+             
+
+#ヘッダーのリンクで子要素はparentで親要素名を書く
+[menu]
+
+  [[menu.main]]
+    identifier = "route"
+    name = "おすすめルート"
+    title = "route section"
+    url = "/route"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "city"
+    name = "観光地"
+    title = "city section"
+    url = "/city"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "taiken"
+    name = "マラケシュ発ツアー"
+    title = "taiken section"
+    url = "/taiken"
+    weight = 3
+
+#タグ付け
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  actor = "actors"

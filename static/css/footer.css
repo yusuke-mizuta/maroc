@@ -1,0 +1,59 @@
+
+
+footer {
+    width: 100%;
+    background-color: #999999;
+    line-height: 60px;
+}
+
+.copyright {
+    font-size: 16px;
+    color: #FAFAFA;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#profile {
+    background-color: #ECEFF1;
+}
+
+.profile-group {
+    padding: 0 0 10px 0;
+}
+
+.my-face {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url("/img/me.jpg");
+}
+
+.right-content {
+    padding-top: 10px;
+    text-align:center;
+}
+
+
+.discription-title:first-child {
+    margin-top: 0;
+}
+.discription-text {
+    font-size: 16px;
+}
+.discription-title {
+    margin: 20px 0 5px 0;
+    font-size: 20px;
+}
+
+/* トップへ戻るボタン */
+.page_top_btn {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-image: url("/img/neko.png");
+    border-radius: 50%;
+    opacity: 0.6;
+}

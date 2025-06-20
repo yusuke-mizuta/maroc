@@ -1,0 +1,50 @@
+.tag_bar ul{
+    counter-reset:li;
+    font: 14px/1.6 'arial narrow', sans-serif;
+    list-style: none;
+    padding:0;
+}
+.tag_bar ul li{
+display: block;
+margin: 10px 10px 0 auto;
+padding: 5px 20px;
+border-radius: 30px;
+background-color: #f3c8c8;
+color: #000;
+font-size: 18px;
+line-height: 1.5em;
+font-weight: 400;
+text-align: left;
+text-decoration: none;
+}
+.tag_bar .hidden_box {
+    padding: 15px;
+    text-align: center;
+}
+.tag_bar .hidden_box input {
+    display: none;
+}
+
+.tag_bar .hidden_box label {
+    cursor :pointer;
+    margin: 20px 10px 0 auto;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #df212c;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    width:90%;
+    max-width: 200px;
+    position:center;
+}
+
+.tag_bar .hidden_box .hidden_show {
+    display: none;
+}
+.tag_bar .hidden_box input:checked ~ .hidden_show {
+    display: inline;
+}

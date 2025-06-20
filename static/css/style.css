@@ -1,0 +1,165 @@
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+     box-sizing: inherit;
+}
+/* body{
+   background-image: url("/img/background.png"); 
+} */
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: gray !important;
+}
+ul{
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+.main-container{
+    padding-top: 70px;
+}
+
+#mv{
+	margin: 0;
+    margin-top: 0px;
+	width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #000;
+    background-image: url("/img/mv.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#mv h1 {
+    margin-top:30px;
+    position: relative;
+    display: inline-block;
+}
+
+
+#com-info {
+    margin-top: -25px;
+    margin-bottom: 40px;
+}
+
+.com-heading {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+section h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.com-heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 0 auto 0 auto;
+    background-color: #EC715F;
+}
+
+.com-heading-text {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.com-container{
+    text-align: center;
+}
+
+.production {
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.production-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bg-1{
+	background-image: url("/img/kankou.png");
+}
+.bg-2{
+	background-image: url("/img/insyoku.png");
+}
+.bg-3{
+	background-image: url("/img/taiken.png");
+}
+
+
+/* タグ一覧 */
+/* .tag_bar ul{
+    list-style: none;
+    text-decoration: none;
+}
+.tag_bar ul a{
+    text-decoration: none;
+} */
+
+@media screen and(max-width: 768px){
+.container {
+    width: 90%;
+}
+.nav {
+    display: none;
+}
+.info {
+    width: 100%;
+    max-width: 350px;
+  }
+#portfolio {
+    padding: 0 5%;
+}
+
+.production {
+    float: none;
+}
+.sp-none {
+    display: none;
+}
+#feature {
+    padding: 0 5%;
+    background-size: cover;
+    background-position: center;
+}
+.strength-group {
+    width: 320px;
+}
+#profile {
+    padding: 0 5%;
+}
+.profile-group {
+    text-align: center;
+}
+.left-content {
+    width: 100%;
+}
+
+.right-content {
+    width: 100%;
+}
+}
+
