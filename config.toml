@@ -51,7 +51,21 @@ customJS = ["/js/count.js",
     title = "taiken section"
     url = "/taiken"
     weight = 3
-
+	
+  [[menu.main]]
+    identifier = "info"
+    name = "モロッコ情報"
+    title = "info section"
+    url = "/info"
+    weight = 4
+	
+  [[menu.main]]
+    identifier = "lang"
+    name = "アラビア語"
+    title = "lang section"
+    url = "/lang"
+    weight = 5
+	
 #タグ付け
 [taxonomies]
   tag = "tags"
