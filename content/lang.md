@@ -1,5 +1,5 @@
 ---
-title: "これだけは覚えとけアラビア語集"
+title: "これだけ覚えてアラビア語集"
 date: 2022-03-03T22:51:30+09:00
 draft: false
 type: "custom"
@@ -8,7 +8,7 @@ layout: "custom"
 
 <div class="info_box clearfix">
 	<h2 style="text-align:center"><img src="/img/lang.png"></img></h2>
-	<h2 style="text-align:center"><img src="/img/hanut.png"></img></h2>
+	<h2 style="text-align:center"><img src="/img/number.png"></img></h2>
 <section style="margin-left:5%">
     <h2 style="text-align:center"><span>①日常会話編　</span></h2>
 	<p>こんにちは（アッサラーム　アレイコム）</p>
@@ -52,7 +52,7 @@ layout: "custom"
 <section style="margin-left:5%">
     <h2 style="text-align:center"><span>④トイレ編　</span></h2>
 	<p>トイレはどこですか？（フィーン　ケイン　トワレ？）</p>
-	<p>いくらですか？（バーラカ　ヘナ/ヌズル　ヘナ）</p>
+	<p>いくらですか？（ブッシャハール？）</p>
 	<p style="color:red">※町中の汚いトイレは基本有料(2DHくらい)</p>
 	<p>女性トイレはどっちですか？（フィーン　ケイン　トワレ　ディヤル　アヤラーツ？）</p>
 	<p>トイレットペーパーはありますか？（ワッシュ　ケイン　パピエ　トワレ　フ　トワレ？）</p>
