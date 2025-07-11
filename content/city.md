@@ -115,4 +115,23 @@ layout: "custom"
 アルガンの木に登るヤギも見れるらしい。（観光客向けの商売？見たことないけど）</p>
 </section>
 
+<section class="info">
+    <h2><span>⑪アガディール　</span>
+		<a target=blank href="https://maps.app.goo.gl/ywNSUhuiJnjrFhF5A">地図</a>
+	</h2>
+    <img class="picture" src="/img/agadir.png"></img>
+    <p>隊員の中で一番近いのに某隊員がまだ行ってない場所。
+なんか爬虫類がたくさんいるクロコパークがあるらしい。
+モロッコ政府も今後開発を進めようとしている。</p>
+</section>
+
+<section class="info">
+    <h2><span>⑫タフラウト　</span>
+		<a target=blank href="https://maps.app.goo.gl/WrhwXmTtLtttKYiK6">地図</a>
+	</h2>
+    <img class="picture" src="/img/taf.png"></img>
+    <p>隊員の中で一番近いのに某隊員がまだ行ってない場所 part2。
+ベルベル民族の町で街の中心にある岩がライオンみたいに見えるらしい。</p>
+</section>
+
 </div>

@@ -47,7 +47,7 @@ customJS = ["/js/count.js",
 
   [[menu.main]]
     identifier = "taiken"
-    name = "マラケシュ発ツアー"
+    name = "ツアー・観光スポット"
     title = "taiken section"
     url = "/taiken"
     weight = 3
